@@ -1,17 +1,27 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+// import App from './App';
+import First from "./1/First";
+import Video from "./Video/Video";
+// import ButtonOnClick from "./Project/buttonOnClick";
+// import Sevagir from "./Sevagir/Sevagir";
+// import TodoApp from "./ToDoInPuT/ToDoLIst";
+// import ToDoRender from "./Sevagir/NewWayToDo";
+// import Timer from "./Timer+/Timer";
+
+//<App />
+// <Timer />
+//<Sevagir />
+//<TodoApp />
+//<ToDoRender />*
+// <Video />
+//<ButtonOnClick />
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+    <div>
+        <First />
+    </div>,
   document.getElementById('root')
 );
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
