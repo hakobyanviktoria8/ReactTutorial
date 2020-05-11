@@ -2,6 +2,7 @@ import React from "react";
 // import Message from "./Message";
 import Log from "./LoginLogoutButton";
 import ShowHideButton from "./ShowHideButton";
+import LeftRightSide from "./LeftRightSide";
 // import GreetingUser from "./GreatingUser";
 // import LoginLogoutButtuon from "./LoginLogoutButton";
 
@@ -18,10 +19,11 @@ import ShowHideButton from "./ShowHideButton";
 class Sevagir extends React.Component{
     render(){
         return(
-            <div style={{border:"5px solid"}}>
-                <Log />
-                <hr/>
-                <ShowHideButton />
+            <div>
+                {/*<Log />*/}
+                {/*<hr/>*/}
+                {/*<ShowHideButton />*/}
+                <LeftRightSide />
             </div>
         )
     }

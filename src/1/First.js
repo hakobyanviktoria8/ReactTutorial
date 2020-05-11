@@ -11,6 +11,7 @@ import HandlingEvents from "./1.6.HandlingEvents";
 import ThinkingInReact from "./1.12.ThinkingInReact";
 import CompositionInheritance from "./1.11.CompositionInheritance";
 import LiftingStateUp from "./1.10.LiftingStateUp";
+
 class First extends React.Component{
     render(){
         return(

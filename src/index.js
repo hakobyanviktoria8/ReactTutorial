@@ -5,7 +5,9 @@ import './index.css';
 import First from "./1/First";
 import Video from "./Video/Video";
 // import ButtonOnClick from "./Project/buttonOnClick";
-// import Sevagir from "./Sevagir/Sevagir";
+import Sevagir from "./Sevagir/Sevagir";
+import Second from "./2/Second";
+import Clock1 from "./1/1.5.1Clock1";
 // import TodoApp from "./ToDoInPuT/ToDoLIst";
 // import ToDoRender from "./Sevagir/NewWayToDo";
 // import Timer from "./Timer+/Timer";
@@ -20,7 +22,8 @@ import Video from "./Video/Video";
 
 ReactDOM.render(
     <div>
-        <First />
+        {/*<First />*/}
+        <Second />
     </div>,
   document.getElementById('root')
 );
