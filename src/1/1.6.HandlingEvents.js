@@ -18,8 +18,12 @@ class HandlingEvents extends React.Component{
                 <p style={{textAlign : "center"}}>In HTML, to prevent the default link</p>
                 <img src={img30} alt=""/>
                 <hr/>
+                <p>When using React, we don’t need to call <b>addEventListener</b> to add listeners to a DOM element after it is created. </p>
+                <p>this Toggle component renders a button that lets the user toggle between “ON” and “OFF” states:</p>
                 <ToggleButton1 />
                 <br/>
+                <p> In JavaScript, class methods are not bound by default. If you forget to bind this.handleClick and
+                    pass it to onClick, this will be undefined when the function is actually called.</p>
                 <img src={img31} alt=""/>
                 <hr/>
                 <p>Առանց bind-ի 2եղանակ կա this-ը ստանալու:

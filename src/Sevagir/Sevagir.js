@@ -3,6 +3,10 @@ import React from "react";
 import Log from "./LoginLogoutButton";
 import ShowHideButton from "./ShowHideButton";
 import LeftRightSide from "./LeftRightSide";
+import Ada from "./Ada";
+import MultiplayCar from "./MultiplayCar";
+import DasHooks from "./DasHooks";
+import LoggingButton from "./LoginBtn";
 // import GreetingUser from "./GreatingUser";
 // import LoginLogoutButtuon from "./LoginLogoutButton";
 
@@ -20,10 +24,14 @@ class Sevagir extends React.Component{
     render(){
         return(
             <div>
+                <LoggingButton />
+{/*<DasHooks />*/}
+                {/*<MultiplayCar />*/}
+                {/*<Ada />*/}
                 {/*<Log />*/}
                 {/*<hr/>*/}
                 {/*<ShowHideButton />*/}
-                <LeftRightSide />
+                {/*<LeftRightSide />*/}
             </div>
         )
     }
